@@ -1,5 +1,6 @@
-
-## To initialize the app for your needs, please do the following:
+# Welcome to Flutter Application Template
+  * This template uses state management techniques like MobX and Provider. It uses MVVM (Model-View-Viewmodel) structure to keep everything organized while seperating      business logic from UI components. It contains basic screens that most applications has like splash, on board and login. It also provides a base to change the            language and theme of the app.
+  ## To initialize the app for your needs, please do the following:
    * Load images into assets folder and replace placeholder widgets inside some pages with commented images.
    * Adjust the base, dev and local URLs inside vexana manager to make your services work.
    * Modify the app_theme_light file to adjust colors, fonts etc. according to your needs.
