@@ -39,7 +39,7 @@ abstract class _SplashViewModelBase with Store, BaseViewModel {
     LocaleManager.instance.getBoolValue(PreferencesKeys.SHOW_ON_BOARD) == true
         ? LocaleManager.instance.getStringValue(PreferencesKeys.TOKEN) != ''
             ? buildContext!.router.replace(const HomeRoute())
-            : buildContext!.router.replace(const HomeRoute())
+            : buildContext!.router.replace(const LoginRoute())
         : buildContext!.router.replace(const OnBoardRoute()); // if (LocaleManager.instance.getBoolValue(PreferencesKeys.IS_REVISIT_APP) == false) {
   }
 }
